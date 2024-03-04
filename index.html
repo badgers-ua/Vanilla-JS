@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Documents</title>
+  </head>
+  <body style="margin: 0">
+    <app-root></app-root>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "router": "./router.js",
+          "header.component": "./components/Header/Header.js",
+          "header.css": "./components/Header/Header.css",
+          "home.page": "./pages/Home.js",
+          "about.page": "./pages/About.js"
+        }
+      }
+    </script>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
